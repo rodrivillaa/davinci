@@ -1,0 +1,104 @@
+.navbar{
+    background:#ffffff;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid #37b85d;
+    
+    
+}
+.contenido{
+    display: flex;
+    justify-content: space-between;
+}
+.img-logo{
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+}
+.img-logo img{
+    width: 150px;
+    height: 100px;
+}
+.creditos{
+    display: flex;
+    justify-content: center;
+    color:#37b85d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 70px;
+    
+
+}
+.nav_items a{
+    margin: 15px;
+    color:#ffffff;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav_items{
+    position: absolute;
+    top: 70px;
+    left: 10;
+    background: #37b85d;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: -webkit-fill-available;        
+    transform: translateX(-200%);
+    transition: 0.3s ease all;
+    text-align: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav_items.open{
+    transform: translateX(0) !important;
+    
+    
+}
+.nav_toggle{
+    display: flex !important;
+    flex-direction: column;                
+    margin: 15px;
+    
+    
+}
+.nav_toggle span{
+    width: 30px;
+    height: 4px;
+    background: #37b85d;
+    margin-bottom: 5px;
+    border-radius: 2px;             
+    transform-origin: 5px 0px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    color: white;
+}
+.nav_toggle.open > span{
+    transform: rotate(45deg) translate(0px, 0px);
+}
+.nav_toggle.open > span:nth-child(2){
+    display: none;
+}
+.nav_toggle.open > span:nth-child(3){
+    transform: rotate(-45deg) translate(-5px, 1px);
+}
+
+@media only screen and (max-width: 660px){
+
+.creditos{
+    display: none;
+}
+
+.img-logo img{
+    height: 80px;
+    width: 100px;
+}
+
+
+}

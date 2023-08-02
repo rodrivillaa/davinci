@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+}
+
+
+
+
+.Footer-Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0px 50px;
+    background-color: #37b85d;
+   margin-top: 20px;
+   height: 180px;
+}
+
+
+.Contenedor1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Contenedor1 h1{
+    font-size: 20px;
+}
+.ContenedorHijo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+.ContenedorHijo1 span{
+    display: flex;
+    justify-content: start;
+    gap: 12px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+} 
+.ContenedorHijo1 span:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transform: scale(1.0);
+} 
+
+.logo :hover{
+    transform: scale(1.2);
+
+}
+.logo img{
+    width: 270px;
+    height: 200px;
+    
+}
+.contenedor3{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 5px;
+    
+
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2px;
+}
+
+.lista span{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    
+}
+/* .contenedor3 li{
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+    margin-right: 15px;
+
+}
+
+.contenedor3 ul{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ text-decoration: none;
+ gap: 2px;
+}
+*/
+.contenedor3 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    
+}
+
+@media only screen and (max-width: 660px){
+
+    .Footer-Container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        /* padding: 0px 50px; */
+        height: 400px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(73, 194, 123);
+    }
+    
+    .Contenedor1{
+        display: flex;
+        font-size: 10px;
+      
+      
+       
+    }
+
+    .ContenedorHijo1{
+        display: flex;
+        font-size: 5px;
+        gap: 10px;
+        
+    }
+    .logo img{
+        height: 120px;
+        width: 120px;
+    }
+
+    .ContenedorHijo1 span{
+        font-size: 18px;
+    }
+
+    .lista span{
+
+    }
+}
