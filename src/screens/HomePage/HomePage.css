@@ -22,7 +22,12 @@
     background-color: orange;
 }
 
-
+.carru{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 /* 
 .img-1:hover{
     transform: scale(1.1);
@@ -54,13 +59,14 @@
     gap: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
+    margin-bottom: 100px;
     
 }
 
 .img-1{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
     background-color: #ffffff;
     border: 1px solid;
     padding: 10px;
@@ -136,19 +142,16 @@ img{
     height: 250px;
     
 }
-
-button{
-    text-decoration: none;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    border:1px solid #37b85d;
-    cursor: pointer;
-    height: 30px;
+.header img{
+    border: 2px solid #37b85d;
+    margin-top: 20px;
+    height: 290px;
+    width: 100%;
 }
 
-button:hover{
-    background-color: #37b85d;
-}
+
+
+
 
 @media only screen and (max-width: 660px){
 

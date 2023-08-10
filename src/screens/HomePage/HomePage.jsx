@@ -1,25 +1,53 @@
 import React from 'react'
 import "./HomePage.css"
 import davinci3 from "../img/davinci3.png"
+import { useCustomContext } from '../../ContextManager/ContextProvider'
+import {ProductCard,Footer}  from '../../Components'
+import NavBar from '../NavBar/NavBar'
+import { Carrusel } from '../../Components'
+import listo5 from "../img/listo5.png"
 
 const HomePage = () => {
+  const {products} = useCustomContext()
   return (
     <>
-    <div>
+   
+     <div>
         <header>
-            <div className='header-1'>
-            <h1>TU CREDITO LISTO,SIEMPRE</h1>
-            <h2>Facil y Rapido</h2>
             
-            <div className='decreto'>
             
-                <h3>Exclusivo Decreto 14/12</h3>
-            </div>
-
+            
+            <div className='header'>
+              <img src={listo5} alt="" />
             </div>
           
-        </header>
-    </div>
+            
+                
+            
+            
+           
+            
+            
+            </header> 
+            
+            
+            </div>
+            <div className='carru'>
+              <Carrusel/>
+              </div>
+    <div   className='container-general'>
+      
+
+      {products.map(producto => (
+        <ProductCard producto={producto} key={producto.id}/>
+        ))}
+        
+      
+  </div> 
+  <Footer/>
+            </>
+           /*  
+          
     <div className='container-general'>
         
         
@@ -90,8 +118,7 @@ const HomePage = () => {
 
 
 
-    </div>
-    </>
+    </div> */ 
   )
 }
 

@@ -2,6 +2,7 @@
 import "./NavBar.css"
 import React, {useState} from "react";
 import logoda from "../img/logoda.png"
+import { Link } from "react-router-dom";
 
 
     
@@ -17,15 +18,14 @@ import logoda from "../img/logoda.png"
                     </div>
                     <div className="creditos">
 
-                    <h1>CREDITOS DAVINCI</h1>
+                    <h1>{/* CREDITOS DAVINCI */}</h1>
                     </div>
 
 
                     <div className={`nav_items ${isOpen && "open"}`}>
-                        <a href="#"> INICIO</a>
-                        <a href="#"> BIO</a>
-                        <a href="#"> PORTAFOLIO</a>
-                        <a href="#"> CONTACTO</a>
+                    <Link to={"/"} >INICIO</Link>
+                        <Link to={"/contacto"} >CONTACTO</Link>
+                        <Link to={"/nosotros"} >NOSOTROS</Link>
                     </div>
                     <div className={`nav_toggle ${isOpen && "open"}`} onClick={ () => setIsOpen(!isOpen)} >
                         <span></span>
