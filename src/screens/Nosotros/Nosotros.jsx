@@ -1,7 +1,7 @@
 import React from 'react'
 import { Formulario } from '../../Components'
 import "./Nosotros.css"
-import noso1 from "../img/noso1.png"
+import NOSOTROS569 from "../img/NOSOTROS569.png"
 import rapido from "../img/rapido.png"
 import cohete from "../img/cohete.jpg"
 import confianza from "../img/confianza.png"
@@ -12,7 +12,7 @@ const Nosotros = () => {
       <>
       
         <div className='nosotros'>
-         <img src={noso1} alt="" /> 
+         <img src={NOSOTROS569} alt="" /> 
           
          </div>
       <div className='containergeneral'>
@@ -42,11 +42,12 @@ const Nosotros = () => {
         
       <div className='info'>
 
-        <h2>Nos especializamos en asistencia financiera a miembros de las Fuerzas Armadas y Seguridad,Empleados PÚBLICOS NACIONALES Y PROVINCIALES.
+        <h4>Nos especializamos en asistencia financiera a miembros de las Fuerzas Armadas y Seguridad,Empleados PÚBLICOS NACIONALES Y PROVINCIALES.
 Otorgamos
-Préstamos Decreto 14/12( Descuento de Haberes) o CBU (movimientos bancarios ).
+Préstamos Decreto 14/12( Descuento de Haberes) o CBU (movimientos bancarios ). <br /><br />
 Nos avalan 18 Años de trayectoria
-Paralelamente nos esforzamos día a día en mejorar los  servicios otorgados a nuestros socios buscando ampliar continuamente nuestro Catálogo y su cobertura geográfica.  Nuestros productos están especialmente diseñados para el momento requerido por el mercado y tipo de asociados.</h2>
+Paralelamente nos esforzamos día a día en mejorar los  servicios otorgados a nuestros socios buscando ampliar continuamente nuestro Catálogo y su cobertura geográfica. 
+<br /><br /> Nuestros productos están especialmente diseñados para el momento requerido por el mercado y tipo de asociados.</h4>
         </div> 
       </div>
       <Footer/>

@@ -33,14 +33,15 @@
     justify-content: start;
     gap: 10px;
 }
-.ContenedorHijo1 span{
+.ContenedorHijo1 a{
     display: flex;
+    text-decoration: none;
     justify-content: start;
     gap: 12px;
     font-size: 20px;
     color: rgb(0, 0, 0);
 } 
-.ContenedorHijo1 span:hover{
+.ContenedorHijo1 a:hover{
     cursor: pointer;
     color: rgb(255, 255, 255);
     transform: scale(1.0);
@@ -139,7 +140,7 @@
         width: 120px;
     }
 
-    .ContenedorHijo1 span{
+    .ContenedorHijo1 a{
         font-size: 18px;
     }
 

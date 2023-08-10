@@ -17,10 +17,20 @@ return (
         <div className='Contenedor1'>
             <h1>SEGUINOS</h1>
             <div className='ContenedorHijo1'>
-                <span> <BsWhatsapp/> 113681-2916</span>
-                <span> <BsInstagram/> davinci.creditos </span>
-                <span> <BsFacebook/> Creditos Davinci</span>
-               
+             
+                <a href="">
+                    <BsWhatsapp/> 113681-2916
+
+                </a>
+
+                <a href="https://www.instagram.com/davinci.creditos/">
+                    <BsInstagram/> davinci.creditos 
+
+                </a>
+                <a href="">
+                
+                    <BsFacebook/> Creditos Davinci
+                </a> 
             </div>
         </div>
         <div className='contenedor2'>
