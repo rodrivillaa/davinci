@@ -211,10 +211,11 @@ padding: 10px;
 .info{
 
     display: flex;
-    margin: 5px;
+    margin: 10px;
     font-size: 15px;
+    border: 3px solid #37b85d;
     
-background-color: #37b85d;
+
 }
 
 .info h2{

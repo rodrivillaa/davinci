@@ -34,11 +34,15 @@ export const Formulario = () => {
             <label htmlFor="message">Message</label>
             <textarea className='text-textarea' name='mensaje' id='mensaje' ></textarea>
 
-            <div className='contenedor-boton'>
+             <div className='contenedor-boton'>
                 <button className='boton' type='submit'>Send</button>
-            </div>
+            </div> 
+           
+	
+    
 </form>
-            </div>
+</div>
+            
 
     )}
 
