@@ -3,10 +3,12 @@ import './Footer.css'
 import { BsWhatsapp, BsInstagram, BsFacebook, BsTwitter } from "react-icons/bs";
 import { BiCaretRight } from "react-icons/bi";
 import logodaa from "../img/logodaa.png"
+import { Link } from 'react-router-dom'
+import { BiLogoGmail } from "react-icons/bi";
 
 
 
-const Footer = () => {
+const Footer = ({producto}) => {
 
 
 
@@ -18,8 +20,8 @@ return (
             <h1>SEGUINOS</h1>
             <div className='ContenedorHijo1'>
              
-                <a href="">
-                    <BsWhatsapp/> 113681-2916
+                <a href="https://w.app/1RzyEs">
+                    <BsWhatsapp/> 11 3801-2916
 
                 </a>
 
@@ -27,9 +29,9 @@ return (
                     <BsInstagram/> davinci.creditos 
 
                 </a>
-                <a href="">
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDshHhNrBVWkSsBfxhqTBmSfwLttdhTvdfQqZKXsMrQDNlZRQmjCxGTwPWkvBMwsWVkSfk">
                 
-                    <BsFacebook/> Creditos Davinci
+               < BiLogoGmail/> justinianotejera@gmail.com
                 </a> 
             </div>
         </div>
@@ -43,24 +45,84 @@ return (
 
 
         </div>
+<div className='prestamo'>
 
-        <div className='contenedor3'>
             <h1>NUESTROS PRESTAMOS</h1>
+        <div className='contenedor3'>
        <div className='lista'>
 
-           <span> <BiCaretRight/>Creditos  fuerza aerea</span> 
-           <span> <BiCaretRight/>Creditos  policia federal</span> 
-           <span> <BiCaretRight/>Creditos  Ejercito Argentino</span> 
-           <span> <BiCaretRight/>Creditos AENA</span> 
-           <span> <BiCaretRight/>Creditos Aduana Argentina</span> 
+        <Link to={"/detail/1"}>
+        
+           <BiCaretRight/>Creditos  fuerza aerea
+        </Link>   
+           
+         
+        
+           
+           
+        <Link to={"/detail/3"}>
+        
+            <BiCaretRight/>Creditos  policia federal
+        </Link>
+            
+           
+
+         <Link to={"/detail/1"}>
+         
+            <BiCaretRight/>Creditos  Ejercito Argentino
+         </Link>
+            
+           
+
+         <Link to={"/detail/1"}>
+            <BiCaretRight/>Creditos EANA
+         
+         </Link>
+            
+           
+
+           <Link to={"/detail/3"}>
+           
+            <BiCaretRight/>Creditos Gendarmeria Nacional
+           </Link>
+            
+
 
 
 
        </div>
+          <div className='lista2'>
+
+            <Link to={"/detail/1"}>
+
+                 <BiCaretRight/>Creditos Aduana Argentina
+            </Link>
+         
+          <Link to={"/detail/3"}>
+
+                 <BiCaretRight/>Creditos Prefectura
+            </Link>
+            
+
+            <Link to={"/detail/3"}>
+
+<BiCaretRight/>Creditos Ministerio de Justicia/Trabajo
+</Link>
+
+<Link to={"/detail/3"}>
+
+<BiCaretRight/>Creditos Organismos Publicos
+</Link>
+<Link to={"/detail/3"}>
+
+<BiCaretRight/>Creditos Vialidad Nacional
+</Link>
+          </div>
         
         </div>
     </div>
     
+</div>
 
 )
 }

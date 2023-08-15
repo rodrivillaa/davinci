@@ -19,6 +19,7 @@ function App() {
       <Route path='/nosotros' element={<Nosotros/>}/>
 
     </Routes>
+    <Footer/>
    {/*  <Footer/> */}
   
   
