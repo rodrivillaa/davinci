@@ -37,8 +37,8 @@ const HomePage = () => {
         ))}
       
   </div> 
-         <Footer/>
 
+  <Footer/>
             </>
         /*  
           

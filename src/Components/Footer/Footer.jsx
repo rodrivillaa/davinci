@@ -91,7 +91,7 @@ return (
 
 
        </div>
-          <div className='lista2'>
+           <div className='lista2'>
 
             <Link to={"/detail/1"}>
 
@@ -117,7 +117,7 @@ return (
 
 <BiCaretRight/>Creditos Vialidad Nacional
 </Link>
-          </div>
+          </div> 
         
         </div>
     </div>
