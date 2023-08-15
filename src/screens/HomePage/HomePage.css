@@ -167,26 +167,6 @@
         width: 350px;
        
     }
-.img-1{
-    width: 350px;
-}
- .img2{
-    width: 350px;
- }
-
- .img3{
-    width: 350px;
- }
-.img4{
-    width: 350px;
-}
-
-.img5{
-    width: 350px;
-}
-.img6{
-   width: 350px;
-}
 
 .header img{
     border:  #37b85d;
@@ -195,5 +175,15 @@
     width: ;
 }
 
+.carru img{
+    
+    width: 450px;
+    height: 200px;
 
+}
+.container-general img{
+    width: 400px;
+    height: 200px;
+    
+}
 }
