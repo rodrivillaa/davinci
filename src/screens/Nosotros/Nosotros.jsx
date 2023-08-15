@@ -50,7 +50,7 @@ Paralelamente nos esforzamos día a día en mejorar los  servicios otorgados a n
 <br /><br /> Nuestros productos están especialmente diseñados para el momento requerido por el mercado y tipo de asociados.</h4>
         </div> 
       </div>
-     
+     <Footer/>
       </>
       
   )
