@@ -35,7 +35,7 @@ const HomePage = () => {
       {products.map(producto => (
         <ProductCard producto={producto} key={producto.id}/>
         ))}
-        
+         <Footer/>
       
   </div> 
 
