@@ -48,11 +48,11 @@ return (
             <h1>NUESTROS PRESTAMOS</h1>
        <div className='lista'>
 
-           <span> <BiCaretRight/>creditas para fuerza aerea</span> 
-           <span> <BiCaretRight/>creditas para fuerza aerea</span> 
-           <span> <BiCaretRight/>creditas para fuerza aerea</span> 
-           <span> <BiCaretRight/>creditas policia federal</span> 
-           <span> <BiCaretRight/>creditas gendarmeria</span> 
+           <span> <BiCaretRight/>Creditos  fuerza aerea</span> 
+           <span> <BiCaretRight/>Creditos  policia federal</span> 
+           <span> <BiCaretRight/>Creditos  Ejercito Argentino</span> 
+           <span> <BiCaretRight/>Creditos AENA</span> 
+           <span> <BiCaretRight/>Creditos Aduana Argentina</span> 
 
 
 

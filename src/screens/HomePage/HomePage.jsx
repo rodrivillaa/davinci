@@ -18,15 +18,9 @@ const HomePage = () => {
             
             
             <div className='header'>
-              <img src={listo5} alt="" />
+            {/*   <img src={listo5} alt="" /> */}
             </div>
           
-            
-                
-            
-            
-           
-            
             
             </header> 
             
@@ -46,7 +40,7 @@ const HomePage = () => {
   </div> 
   <Footer/>
             </>
-           /*  
+        /*  
           
     <div className='container-general'>
         
