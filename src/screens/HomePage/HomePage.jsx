@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <>
    
-     <div>
+     <div className='general'>
         <header>
             
             
