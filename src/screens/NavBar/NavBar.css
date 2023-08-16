@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Kanit', sans-serif;
     border-bottom: 1px solid #37b85d;
     
     
@@ -12,6 +12,7 @@
 .contenido{
     display: flex;
     justify-content: space-between;
+    font-family: 'Kanit', sans-serif;
 }
 .img-logo{
    
@@ -29,7 +30,7 @@
     display: flex;
     justify-content: center;
     color:#37b85d;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Kanit', sans-serif;
     margin-right: 70px;
     
 
@@ -89,7 +90,15 @@
     transform: rotate(-45deg) translate(-5px, 1px);
 }
 
+.nav_items a:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.0);
+
+}
 @media only screen and (max-width: 660px){
+    .navbar{
+        border-bottom: 0px;
+    }
 
 .creditos{
     display: none;
