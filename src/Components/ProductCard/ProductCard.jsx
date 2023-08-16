@@ -6,7 +6,8 @@ const ProductCard = ({producto}) => {
   return (
     <div className='img-1'>
       
-      <img src={producto.img}/><br />
+      <img src={producto.img}/>
+    
       <h2>{producto.nombre}</h2> <br /> 
       
      <br /><Link className="btn-boton"to={"/detail/" + producto.id}> Pedi tu prestamo</Link>

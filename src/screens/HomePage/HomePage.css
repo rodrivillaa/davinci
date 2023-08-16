@@ -78,7 +78,7 @@ body{
     color:#ffffff;
    background-color: white;
     gap: 20px;
-    border: 2px solid #37b85d ;
+    border: 1px solid #37b85d ;
     
     
 }
@@ -147,13 +147,13 @@ body{
     color:#ffffff;
    background-color: white;
     gap: 20px;
-    border: 2px solid #37b85d ;
+    border: 1px solid #37b85d ;
     
     
     
 }
 .img-1 h2{
     margin: 10px;
-    font-size: 18px;
+    font-size: 15px;
 }
 }
