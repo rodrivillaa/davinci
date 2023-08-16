@@ -7,14 +7,14 @@ import cohete from "../img/cohete.jpg"
 import confianza from "../img/confianza.png"
 import {Footer} from '../../Components'
 import RODIR from "../img/RODIR.png"
-import nnn from "../img/nnn.png"
+import nnnn from  "../img/nnnn.png"
 
 const Nosotros = () => {
   return (
       <>
       
         <div className='nosotros'>
-         <img src={nnn} alt="" />  
+         <img src={nnnn} alt="" />  
         
           
          </div>
