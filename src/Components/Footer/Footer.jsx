@@ -104,7 +104,7 @@ return (
             </Link>
             
 
-            <Link to={"/detail/3"}>
+            <Link to={"/detail/2"}>
 
 <BiCaretRight/>Creditos Ministerio de Justicia/Trabajo
 </Link>

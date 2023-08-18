@@ -47,9 +47,9 @@ const Nosotros = () => {
 
         <h2>Acerca de Creditos Davinci</h2>
 
-        <h4>Nos especializamos en asistencia financiera a miembros de las Fuerzas Armadas y Seguridad,Empleados PÚBLICOS NACIONALES Y PROVINCIALES.
+        <h4>Nos especializamos en asistencia financiera a miembros de las Fuerzas Armadas y Seguridad (en actividad,pensionados o retirados) Empleados PÚBLICOS NACIONALES Y PROVINCIALES.
 Otorgamos
-Préstamos Decreto 14/12( Descuento de Haberes) o CBU (movimientos bancarios ). <br /><br />
+Préstamos Decreto 14/12 (Descuento de Haberes) o prestamos por CBU  (Movimientos Bancarios) por debito automatico hasta $250.000. <br /><br />
 Nos avalan 18 Años de trayectoria
 Paralelamente nos esforzamos día a día en mejorar los  servicios otorgados a nuestros socios buscando ampliar continuamente nuestro Catálogo y su cobertura geográfica. 
 <br /><br /> Nuestros productos están especialmente diseñados para el momento requerido por el mercado y tipo de asociados.</h4>

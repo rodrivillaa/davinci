@@ -1,5 +1,5 @@
 
-import './Formulario.css'
+import './Contacto.css'
 import React from 'react'
 import { BsWhatsapp , BsInstagram} from "react-icons/bs";
 import { BiLogoGmail} from "react-icons/bi";

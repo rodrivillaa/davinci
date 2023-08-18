@@ -1,0 +1,133 @@
+.contenedor-principal{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 700px;
+    height: 550px;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: rgb(230, 224, 224);
+    
+    font-family: 'Kanit', sans-serif;
+    
+
+
+    
+}
+
+.contenedor-formulario{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-principal h5{
+    margin-bottom: 50px;
+    font-size: 20px;
+    
+    color: #111111;
+}
+
+.contenedor-formulario label{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #586870;
+}
+
+.contenedor-formulario textarea{
+    padding: 3px, 8px, 3px, 16px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.contenedor-formulario input{
+    height: 35px;
+    margin-bottom: 20px;
+    padding: 3px, 8px, 3px, 16px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.input-text, .text-textarea{
+    padding: 10px 10px;
+}
+.contenedor-boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    gap: 50px;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.contenedor-boton button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+}
+
+.contenedor-boton button:hover{
+    background-color: rgb(230, 224, 224) ;
+}
+
+@media only screen and (max-width: 660px){
+
+    .contenedor-principal{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: sans-serif;
+        width: 313px;
+        height: 550px;
+        border-radius: 3px;
+        padding: 20px;
+        background-color: rgb(230, 224, 224);
+        
+        font-family: 'Kanit', sans-serif;
+        
+    
+    
+        
+    }
+    .contenedor-formulario label{
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #586870;
+    }
+    
+    .contenedor-formulario textarea{
+        padding: 3px, 8px, 3px, 16px;
+       width: 320px;
+        height: 100%;
+        border-radius: 10px;
+        outline: none;
+        border: 1px solid rgb(0, 0, 0);
+    }
+    
+    .contenedor-formulario input{
+        display: flex;
+        height: 35px;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 320px;
+        padding: 3px, 8px, 3px, 16px;
+        border-radius: 10px;
+        outline: none;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+}
