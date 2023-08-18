@@ -1,4 +1,4 @@
-.contenedor-principal{
+/* .contenedor-principal{
     font-family: sans-serif;
     width: 730px;
     height: 540px;
@@ -66,34 +66,172 @@
 
 
 /* Boton */
-.contenedor-boton{
+
+.contacto img{
     margin-top: 20px;
+    width: 100%;
+    height: 280px;
+
+}
+
+.contenedorprincipal{
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
 }
-.boton{
-    width: 300px;
-    height: 50px;
+ .contenedor1{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    background-color: #37b85d;
+    text-align: center;
+    gap: 20px;
     border-radius: 10px;
-    border: none;
-    padding: 8px, 20px, 8px, 20px;
-    background: rgb(73, 194, 123);
+    
+ }
+
+ 
+h2{
+   
+    color: black;
+}
+.contenedorprincipal h3{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+   
+}
+h4{
+    color: black;
+}
+.wsp{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: black;
+    
+    
+    
+
+    font-size: 80px;
+}
+.contenedor6{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    background-color: #f09433;
+    text-align: center;
+    gap: 20px;
+    text-decoration: none;
+    text-decoration-line: none;
+    border-radius: 10px;
+ }
+
+ .contenedorprincipal :hover{
     cursor: pointer;
+    color: rgb(0, 0, 0);
+    transform: scale(0.99);
+    filter: brightness(100%);
+} 
+ 
+ .instagram{
+     display: flex;
+     font-size: 80px;
+     color: black;
+     justify-content: center;
+     margin-top: 20px;
+     text-align: center;
+     text-decoration: none;
+ }
+ 
+ .contenedor7{
+     display: flex;
+     flex-direction: column;
+     width: 350px;
+     height: 300px;
+     background-color: rgb(219, 71, 71);
+     text-align: center;
+     gap: 20px;
+     border-radius: 10px;
+    }
+    
+    .gmail{
+        display: flex;
+        justify-content: center;
+        font-size: 80px;
+        margin-top: 20px;
+        color: black;
+        
+        
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+
+    @media only screen and (max-width: 660px){
+
+.contenedorprincipal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
 }
-.boton:hover{
-    background: rgb(235, 235, 235);
-    color: #111111;
+.contenedorprincipal h3{
+    color: white;
+    font-size: 18px;
+   
 }
 
-@media only screen and (max-width: 700px){
-
-.contenedor-principal{
-    width: 200px;
-}
-.contenedor-formulario{
-    width: 200px;
-}
+.contacto img{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
 
 }
+
+.contenedor7{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(219, 71, 71);
+    text-align: center;
+    gap: 20px;
+    border-radius: 10px;
+
+   }
+   .contenedor1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: #37b85d;
+    text-align: center;
+    gap: 20px;
+    border-radius: 10px;
+ 
+    
+ }
+
+
+ .contenedor6{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: #f09433;
+    text-align: center;
+    gap: 20px;
+    text-decoration: none;
+    text-decoration-line: none;
+    border-radius: 10px;
+
+ }
+    }

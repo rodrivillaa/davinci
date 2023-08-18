@@ -1,50 +1,78 @@
-import React, { useRef } from 'react'
+
 import './Formulario.css'
-import emailjs from '@emailjs/browser';
+import React from 'react'
+import { BsWhatsapp , BsInstagram} from "react-icons/bs";
+import { BiLogoGmail} from "react-icons/bi";
+import Footer from '../Footer/Footer';
+import contacto4 from "../img/contacto4.png"
 
-export const Formulario = () => {
-    const form = useRef();
-  
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_gpitf2o', 'template_p4fdnrh', form.current, 'BD2lCMD0aWqIx2oPG')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-    };
-  
-    return (
-         <div className='contenedor-principal'>
-      <form className='contenedor-formulario' ref={form} onSubmit={sendEmail}>
-            <h5>CONTACT</h5>
+const Formulario = () => {
+  return (
+    <>
+    <header className='contacto'>
+        <img src={contacto4} alt="" />
+    </header>
+    <div className='contenedorprincipal'>
+        
+        <a href="https://w.app/1RzyEs">
+                  
+        <div className='contenedor1'>
+        
+        <div className='wsp'>
 
-            <label htmlFor="fullname">Full Name</label>
-            <input className='input-text'type='text' name='user_name' id='fullname' />
+        <BsWhatsapp/>
+        </div>
+           <h2>Whatsapp</h2>
+           <h3>11 3601-2916</h3>
+           <h4>Contactate con nosostros</h4>
+        </div>
+                </a>
+        
+        <a href="https://www.instagram.com/davinci.creditos/">
+<div className='contenedor6'>
+
+        <div className='instagram'>
+                    <BsInstagram/> 
+        </div>
+        <h2>Instagram</h2>
+            <h3>davinci.creditos</h3>
+            <h4>Visita nuestro perfil </h4>
+</div> 
+                </a>
 
 
-            <label htmlFor="email">Email</label>
-            <input className='input-text' type="email" name='user_email'id='email' />
 
-            <label htmlFor="asunto">Asunto</label>
-            <input className='input-text' type="text" name='asunto' id='asunto'  />
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzDshHhNrBVWkSsBfxhqTBmSfwLttdhTvdfQqZKXsMrQDNlZRQmjCxGTwPWkvBMwsWVkSfk">
+        <div className='contenedor7'>
 
-            <label htmlFor="message">Message</label>
-            <textarea className='text-textarea' name='mensaje' id='mensaje' ></textarea>
+              
+        <div className='gmail'>
+        <BiLogoGmail/>
+        </div>
+        <h2>Gmail</h2>
+        <h3>justinianotejera@gmail.com</h3>
+        <h4>Envianos tu consulta</h4>
+        
 
-             <div className='contenedor-boton'>
-                <button className='boton' type='submit'>Send</button>
-            </div> 
-           
-	
+        </div>
+                 </a> 
+        
+
+
+
+
+
+
+    </div>
     
-</form>
-</div>
-            
+    
+    
+    <Footer/>
+    
+    </>
+  )
+}
 
-    )}
 
 
 export default Formulario
