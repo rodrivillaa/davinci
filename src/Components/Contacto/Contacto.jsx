@@ -23,7 +23,7 @@ const Formulario = () => {
         <BsWhatsapp/>
         </div>
            <h2>Whatsapp</h2>
-           <h3>11 3601-2916</h3>
+           <h3>11 3801-2916</h3>
            <h4>Contactate con nosostros</h4>
         </div>
                 </a>
