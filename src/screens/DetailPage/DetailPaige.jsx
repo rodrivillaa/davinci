@@ -3,9 +3,8 @@ import { useParams } from 'react-router-dom'
 import { useCustomContext } from '../../ContextManager/ContextProvider'
 import { Footer, Formulario, Carrusel2} from '../../Components'
 import "./DetailPage.css"
-import { FcCheckmark } from "react-icons/Fc";
-import REGISTRO from "../img/REGISTRO.png"
- 
+import { FcCheckmark } from "react-icons/fc";
+
 const DetailPaige = () => {
     const {id}=useParams()
     const {getProductById} = useCustomContext()
