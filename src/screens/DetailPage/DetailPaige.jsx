@@ -13,10 +13,10 @@ const DetailPaige = () => {
     <>
     
     <div className='requicontenedor'>
-      <div className='fsn'> 
+     
         <Carrusel2/>
       
-      </div>
+   
    
       <div className='requisitos'>
    

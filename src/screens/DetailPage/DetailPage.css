@@ -10,19 +10,11 @@ margin-bottom: 60px;
 
   
 }
-.fsn img{
+.requicontenedor img{
     width: 1400px;
     height: 300px;
 }
-.fsn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-    width: 1400px;
-    height: 300px;
-   
-}
+
  .requi1{
     display: flex;
     flex-direction: column;
@@ -70,19 +62,20 @@ margin-bottom: 60px;
     
       
     }
+
+     .requicontenedor img{
     
-    .fsn{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 30px;
-        font-size: 14px;
-       
+        width: 98.5%;
+        height: 180px;
+    
     }
-     .requi1{
+
+
+    
+     
+    .requi1{
         display: flex;
-        justify-content: center;
+        flex-wrap: wrap;
         width: 330px;
         gap: 10px;
         background-color: rgb(230, 224, 224);
