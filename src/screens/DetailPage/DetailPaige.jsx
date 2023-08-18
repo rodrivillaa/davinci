@@ -1,11 +1,11 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useCustomContext } from '../../ContextManager/ContextProvider'
-import { Footer, Formulario,} from '../../Components'
+import { Footer, Formulario, Carrusel2} from '../../Components'
 import "./DetailPage.css"
 import { FcCheckmark } from "react-icons/Fc";
 import REGISTRO from "../img/REGISTRO.png"
-
+ 
 const DetailPaige = () => {
     const {id}=useParams()
     const {getProductById} = useCustomContext()
@@ -15,7 +15,7 @@ const DetailPaige = () => {
     
     <div className='requicontenedor'>
       <div className='fsn'> 
-        <h1>PEDI TU PRESTAMO AHORA!</h1>
+        <Carrusel2/>
       
       </div>
    

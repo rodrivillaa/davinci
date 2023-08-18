@@ -3,5 +3,5 @@ import Formulario from "./Formulario/Formulario";
 import ProductCard from "./ProductCard/ProductCard";
 import Carrusel from "./Carrusel/Carrusel.jsx";
 import Contacto from "./Contacto/Contacto.jsx"
-import 
-export{Footer,Formulario,ProductCard,Carrusel,Contacto}
+import Carrusel2 from "./Carrusel2/Carrusel2";
+export{Footer,Formulario,ProductCard,Carrusel,Contacto,Carrusel2}
