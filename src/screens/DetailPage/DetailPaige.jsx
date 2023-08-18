@@ -9,6 +9,7 @@ const DetailPaige = () => {
     const {id}=useParams()
     const {getProductById} = useCustomContext()
     const ProductDetail=getProductById(id)
+    
   return (
     <>
     

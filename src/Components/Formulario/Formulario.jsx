@@ -1,9 +1,11 @@
-import React from 'react'
+import React ,{useState}from 'react'
 import emailjs from '@emailjs/browser';
 import "./Formulario.css"
 import { useRef } from 'react'
+import { useCustomContext } from '../../ContextManager/ContextProvider';
 
 export const Formulario = () => {
+   
      const form = useRef();
   
     const sendEmail = (e) => {
@@ -16,6 +18,15 @@ export const Formulario = () => {
             console.log(error.text);
         });
     }; 
+ const SendEmaili = () =>{
+    Swal.fire(
+        'Bien Hecho',
+        'Tu solicitud fue enviada con exito',
+        'success'
+    )
+} 
+        
+    
   
     return (
          <div className='contenedor-principal'>
@@ -39,7 +50,7 @@ export const Formulario = () => {
             <textarea className='text-textarea' name='mensaje' id='mensaje' ></textarea>
 
              <div className='contenedor-boton'>
-                <button className='boton' type='submit'>Enviar</button>
+                <button onClick={SendEmaili}  className='boton' type='submit'>Enviar</button>
             </div> 
            
     
