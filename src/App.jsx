@@ -1,5 +1,5 @@
 import { DetailPaige, HomePage, NavBar,Nosotros} from './screens'
-import { Footer,Formulario, ProductCard } from './Components'
+import { Footer,Formulario, ProductCard,Contacto} from './Components'
 import './App.css'
  import {useCustomContext} from "./ContextManager/ContextProvider" 
 import { Route,Routes } from 'react-router-dom'
@@ -15,7 +15,7 @@ function App() {
     <Routes>
       <Route path='/'element={<HomePage/>}/>
       <Route path='detail/:id' element={<DetailPaige/>}/>
-      <Route path='/contacto' element={<Formulario/>}/>
+      <Route path='/contacto' element={<Contacto/>}/>
       <Route path='/nosotros' element={<Nosotros/>}/>
 
     </Routes>
