@@ -44,7 +44,7 @@ export const Formulario = () => {
             <input className='input-text' type="email" name='user_email'id='email' />
 
             <label htmlFor="telefono">Telefono</label>
-            <input className='input-text' type="tel" name='telefono' id='telefono'  />
+            <input className='input-text' type="tel" name='user_number' id='telefono'  />
 
             <label htmlFor="message">Mensaje</label>
             <textarea className='text-textarea' name='mensaje' id='mensaje' ></textarea>
